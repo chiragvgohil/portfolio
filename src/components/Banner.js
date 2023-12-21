@@ -1,8 +1,7 @@
 import React from 'react';
 
 import {FaGithub, FaYoutube, FaDribbble} from 'react-icons/fa';
-//  import {TypeAnimation} from 'react-type-animation';
-import {motion} from "framer-motion";
+ import {motion} from "framer-motion";
 import {fadeIn} from "../variants";
 import Image from "../assets/avatar.svg";
 
@@ -15,11 +14,7 @@ const Banner = () => {
           <motion.h1 variants={fadeIn('up',0.3)} initial="hidden" whileInView={'show' } viewport={{once:false,amount:0.7}} className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>Chirag <span>Gohil</span></motion.h1>
           <motion.div  variants={fadeIn('up',0.4)} initial="hidden" whileInView={'show' } viewport={{once:false,amount:0.7}} className='mb-6 text-[36px] lg:text[60px] font-secondary font-semibold uppercase leading-[1]'>
             <span className='mr-4  '>I am a <span className='text-accent'>Developer</span> </span>
-            {/* <TypeAnimation requence={[
-              'Developer',2000,
-              'Designer',2000,
-              'Developer',2000
-            ]} /> */}
+            
           
           </motion.div>
               <motion.p  variants={fadeIn('up',0.5)} initial="hidden" whileInView={'show' } viewport={{once:false,amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores pariatur sunt dolore sequi tempora sit tempore, magni quidem dolorem voluptate exercitationem ullam! Sit maiores animi qui eveniet quidem distinctio minus!</motion.p>
